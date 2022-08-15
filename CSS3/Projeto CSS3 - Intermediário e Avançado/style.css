@@ -38,6 +38,19 @@
 }*/
 
 /*Seletor de irmão geral*/
-h1~p{
+/*h1~p{
 	color: green;
+}*/
+
+/*Herança e Especificidade*/
+
+/*body{
+	color: red;
+	border: 1px solid blue;
+}*/
+p{
+	color: red !important;
+}
+p{
+	color: blue;
 }
